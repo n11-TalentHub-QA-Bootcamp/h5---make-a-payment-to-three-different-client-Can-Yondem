@@ -1,4 +1,4 @@
-Feature: feature
+Feature: Login Automation
   Background:
     Given User in the login page of Eribank Application
 
