@@ -1,6 +1,6 @@
-Feature: Make a payment to three different client
+Feature: Make a payment different client
 
- Scenario Outline:
+ Scenario Outline: Make a payment to three different client
    Given User logged in EriBank Application
    When User make a payment to "<Name>" "<Phone>" "<Country>" and "<Amount>" dollars
    Then User should see their balance drop "<Amount>" dollars
