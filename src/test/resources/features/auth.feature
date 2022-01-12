@@ -1,5 +1,5 @@
 Feature: Login Automation
-  Background:
+  Background: Open EriBank application
     Given User in the login page of Eribank Application
 
   Scenario: Check login with incorrect username and password to the Eribank application
